@@ -77,3 +77,6 @@ describe('index.js', function () {
     });
   });
 });
+function selectDifferentDrivers(drivers, selectFunction) {
+  return selectFunction(drivers);
+}
